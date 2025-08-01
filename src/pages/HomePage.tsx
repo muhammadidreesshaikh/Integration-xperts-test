@@ -38,10 +38,12 @@ const Home = () => {
 
                   <h4>Latest News</h4>
 
-                  <div className="latest-grid">
+                  <div className="row">
                     {
                       news.map((latestnews, index) => (
-                        <LatestNewsCard {...latestnews} key={index} />
+                        <div className="col-md-2 col-4 mb-4">
+                          <LatestNewsCard {...latestnews} key={index} />
+                        </div>
                       ))
                     }
                   </div>

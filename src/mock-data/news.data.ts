@@ -12,4 +12,5 @@ export const news: LatestNews[] = [
     { id: 3, image: Img3, link: 'https://www.google.com' },
     { id: 4, image: Img4, link: 'https://www.google.com' },
     { id: 5, image: Img5, link: 'https://www.google.com' },
+    { id: 6, image: Img5, link: 'https://www.google.com' },
 ];
