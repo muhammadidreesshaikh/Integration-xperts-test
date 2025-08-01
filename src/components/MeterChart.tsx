@@ -153,7 +153,7 @@ const MeterChart: React.FC = () => {
     };
   }, []);
 
-  return <div id="chartdiv" ref={chartRef} style={{ width: "100%", height: "500px" }} />;
+  return <div id="chartdiv" ref={chartRef} style={{ width: "100%", height: "300px" }} />;
 };
 
 export default MeterChart;

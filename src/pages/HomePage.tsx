@@ -2,8 +2,11 @@ import CategoryCircle from "../components/CategoryCircle";
 import Latest from "../components/Latest";
 import MeterChart from "../components/MeterChart";
 import PieChart from "../components/PieChart";
-import "../assets/css/home.css";
 import { categories } from "../mock-data/categories.data";
+import { news } from "../mock-data/news.data";
+
+import "../assets/css/home.css";
+
 
 const Home = () => {
   return (
@@ -20,14 +23,24 @@ const Home = () => {
                   <div className="category-scroll">
                     {
                       categories.map((category, index) => (
-                        <CategoryCircle {...category} key={index}/>
+                        <CategoryCircle {...category} key={index} />
                       ))
                     }
                   </div>
                 </div>
 
-                <Latest />
+                {/* latest-news */}
+                <div className="latest">
+                  <div className="latest-grid">
+                   {
+                    news.map((latestnews, index) => (
+                      <Latest {...latestnews} key={index}/> 
+                    ))
+                   }
+                  </div>
+                </div>
 
+                {/* chart-section */}
                 <div className="chart-section">
                   <div className="row">
                     <div className="col-6">
