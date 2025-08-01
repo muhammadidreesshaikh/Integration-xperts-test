@@ -1,3 +1,29 @@
 .homepage{
     padding: 50px 0;
 }
+
+.homepage .user-card{
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--color-light-gry);
+    box-shadow: 1px 2px 10px #efefef;
+}
+
+.homepage .user-card h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.homepage .chart-section{
+    padding-top: 35px;
+}
+
+.homepage .chart-section h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-black);
+    text-align: left;
+    padding-bottom: 15px;
+}

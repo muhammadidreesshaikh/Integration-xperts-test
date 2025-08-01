@@ -1,0 +1,37 @@
+.latest {
+    padding-top: 35px;
+}
+
+.latest h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-black);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.latest-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card-square {
+    flex: 1 0 75px;
+    max-width: 75px;
+}
+
+.card-square img {
+    width: 100%;
+    height: 75px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+}
+
+/* Optional: Add responsiveness for small screens */
+@media (max-width: 480px) {
+    .latest-grid {
+        justify-content: center;
+    }
+}
