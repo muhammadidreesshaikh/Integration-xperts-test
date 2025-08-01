@@ -6,15 +6,12 @@ import HomePage from "./pages/HomePage";
 function App() {
   return (
      <div className="App">
-
-      {/* all components */}
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/homepage" element={<HomePage />} />
         </Routes>
       </div>
-      
     </div>
   )
 }

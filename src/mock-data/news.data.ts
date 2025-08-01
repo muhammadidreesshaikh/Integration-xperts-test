@@ -1,4 +1,4 @@
-import type { LatestNews } from "../types/latestnews";
+import type { LatestNews } from "../types/latestNews";
 
 import Img1 from "../assets/img/1.jpg";
 import Img2 from "../assets/img/2.jpg";

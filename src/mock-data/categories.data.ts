@@ -7,6 +7,11 @@ import Img4 from "../assets/img/4.png";
 import Img5 from "../assets/img/5.jpg";
 import Img6 from "../assets/img/2.jpg";
 import Img7 from "../assets/img/1.jpg";
+import Img8 from "../assets/img/2.jpg";
+import Img9 from "../assets/img/1.jpg";
+import Img10 from "../assets/img/2.jpg";
+import Img11 from "../assets/img/1.jpg";
+import Img12 from "../assets/img/1.jpg";
 
 export const categories: Category[] = [
     { id: 1, image: Img1, link: 'https://www.google.com' },
@@ -16,11 +21,9 @@ export const categories: Category[] = [
     { id: 5, image: Img5, link: 'https://www.google.com' },
     { id: 6, image: Img6, link: 'https://www.google.com' },
     { id: 7, image: Img7, link: 'https://www.google.com' },
-    { id: 8, image: Img1, link: 'https://www.google.com' },
-    { id: 9, image: Img2, link: 'https://www.google.com' },
-    { id: 10, image: Img3, link: 'https://www.google.com' },
-    { id: 11, image: Img4, link: 'https://www.google.com' },
-    { id: 12, image: Img5, link: 'https://www.google.com' },
-    { id: 13, image: Img6, link: 'https://www.google.com' },
-    { id: 14, image: Img7, link: 'https://www.google.com' },
+    { id: 8, image: Img8, link: 'https://www.google.com' },
+    { id: 9, image: Img9, link: 'https://www.google.com' },
+    { id: 10, image: Img10, link: 'https://www.google.com' },
+    { id: 11, image: Img11, link: 'https://www.google.com' },
+    { id: 12, image: Img6, link: 'https://www.google.com' },
 ];

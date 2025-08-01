@@ -2,7 +2,7 @@ import type { LatestNews } from "../types/latestnews";
 
 import "../assets/css/latest.css";
 
-const Latest = (data: LatestNews) => {
+const LatestNewsCard = (data: LatestNews) => {
     return (
         <a href={data.link}>
             <div className="latest-card">
@@ -12,4 +12,4 @@ const Latest = (data: LatestNews) => {
     );
 };
 
-export default Latest;
+export default LatestNewsCard;

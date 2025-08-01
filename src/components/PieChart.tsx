@@ -71,7 +71,7 @@ const PieChart: React.FC = () => {
     };
   }, []);
 
-  return <div id="chartdiv" ref={chartRef} style={{ width: "100%", height: "300px" }} />;
+  return <div id="chartdiv" ref={chartRef} style={{ width: "100%", height: "290px" }} />;
 };
 
 export default PieChart;

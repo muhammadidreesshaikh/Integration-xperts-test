@@ -1,5 +1,5 @@
 import CategoryCircle from "../components/CategoryCircle";
-import Latest from "../components/Latest";
+import LatestNewsCard from "../components/LatestNewsCard";
 import MeterChart from "../components/MeterChart";
 import PieChart from "../components/PieChart";
 import { categories } from "../mock-data/categories.data";
@@ -19,7 +19,11 @@ const Home = () => {
               <div className="user-card">
                 <h2>Welcome User</h2>
 
+                {/* categories-list */}
                 <div className="category">
+
+                  <h4>Categories List</h4>
+
                   <div className="category-scroll">
                     {
                       categories.map((category, index) => (
@@ -31,17 +35,23 @@ const Home = () => {
 
                 {/* latest-news */}
                 <div className="latest">
+
+                  <h4>Latest News</h4>
+
                   <div className="latest-grid">
-                   {
-                    news.map((latestnews, index) => (
-                      <Latest {...latestnews} key={index}/> 
-                    ))
-                   }
+                    {
+                      news.map((latestnews, index) => (
+                        <LatestNewsCard {...latestnews} key={index} />
+                      ))
+                    }
                   </div>
                 </div>
 
                 {/* chart-section */}
                 <div className="chart-section">
+
+                  <h4>Statistics</h4>
+
                   <div className="row">
                     <div className="col-6">
                       <MeterChart />

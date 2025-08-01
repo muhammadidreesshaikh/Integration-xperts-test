@@ -120,7 +120,7 @@ const MeterChart: React.FC = () => {
       { title: "Developing", color: "#f3eb0c", lowScore: 20, highScore: 40 },
       { title: "Maturing", color: "#b0d136", lowScore: 40, highScore: 60 },
       { title: "Sustainable", color: "#54b947", lowScore: 60, highScore: 80 },
-      { title: "High Performing", color: "#0f9747", lowScore: 80, highScore: 100 },
+      { title: "Performing", color: "#0f9747", lowScore: 80, highScore: 100 },
     ];
 
     am5.array.each(bandsData, (data) => {
@@ -153,7 +153,7 @@ const MeterChart: React.FC = () => {
     };
   }, []);
 
-  return <div id="chartdiv" ref={chartRef} style={{ width: "100%", height: "300px" }} />;
+  return <div id="chartdiv" ref={chartRef} style={{ width: "100%", height: "290px" }} />;
 };
 
 export default MeterChart;
