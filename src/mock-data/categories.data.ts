@@ -11,7 +11,6 @@ import Img8 from "../assets/img/2.jpg";
 import Img9 from "../assets/img/1.jpg";
 import Img10 from "../assets/img/2.jpg";
 import Img11 from "../assets/img/1.jpg";
-import Img12 from "../assets/img/1.jpg";
 
 export const categories: Category[] = [
     { id: 1, image: Img1, link: 'https://www.google.com' },
