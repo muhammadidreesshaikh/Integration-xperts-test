@@ -1,4 +1,4 @@
-import type { LatestNews } from "../types/latestnews";
+import type { LatestNews } from "../types/latest-news";
 
 import "../assets/css/latest.css";
 
