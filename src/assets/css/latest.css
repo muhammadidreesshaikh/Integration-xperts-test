@@ -29,7 +29,7 @@
     border-radius: 7px;
 }
 
-/* Optional: Add responsiveness for small screens */
+
 @media (max-width: 480px) {
     .latest-grid {
         justify-content: center;

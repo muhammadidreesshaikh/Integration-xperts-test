@@ -27,3 +27,33 @@
     text-align: left;
     padding-bottom: 15px;
 }
+
+/* category cards styling  */
+.category {
+    padding-top: 35px;
+}
+
+.category h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-black);
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.category .category-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+    scrollbar-width: thin;
+}
+
+.category .category-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.category .category-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}

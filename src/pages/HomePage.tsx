@@ -1,10 +1,9 @@
-import CategoryCircle from "../components/categoryCircle";
+import CategoryCircle from "../components/CategoryCircle";
 import Latest from "../components/Latest";
 import MeterChart from "../components/MeterChart";
 import PieChart from "../components/PieChart";
-
 import "../assets/css/home.css";
-
+import { categories } from "../mock-data/categories.data";
 
 const Home = () => {
   return (
@@ -12,17 +11,24 @@ const Home = () => {
       <div className="homepage">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-12">
 
               <div className="user-card">
                 <h2>Welcome User</h2>
 
-                <CategoryCircle />
+                <div className="category">
+                  <div className="category-scroll">
+                    {
+                      categories.map((category, index) => (
+                        <CategoryCircle {...category} key={index}/>
+                      ))
+                    }
+                  </div>
+                </div>
+
                 <Latest />
 
                 <div className="chart-section">
-                  <h4>Stats</h4>
-
                   <div className="row">
                     <div className="col-6">
                       <MeterChart />
