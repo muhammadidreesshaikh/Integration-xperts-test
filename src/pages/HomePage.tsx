@@ -53,11 +53,11 @@ const Home = () => {
                   <h4>Statistics</h4>
 
                   <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-12">
                       <MeterChart />
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-md-6 col-12">
                       <PieChart />
                     </div>
                   </div>
